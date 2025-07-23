@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+*.log
+
+# Virtual environments
+venv/
+myenv/
+.env
+.env.*
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# # Data and model files
+# models/
+# *.pkl
+# Cancer_Data.csv
+
+# FastAPI/Starlette
+instance/
+
+# React/Node
+frontend/node_modules/
+frontend/build/
+frontend/.env
+frontend/.env.*
+
+node_modules/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# VSCode/IDE
+.vscode/
+.idea/
+*.swp
+
+# Docker
+*.pid
+
+# Misc
+*.bak
+*.tmp
+
+# Ignore test coverage
+htmlcov/
+.coverage
+.tox/
+
+# Ignore deployment files (optional)
+*.local 

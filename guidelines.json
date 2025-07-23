@@ -1,0 +1,30 @@
+{
+  "malignant": {
+    "primary_treatment": "Guideline-based Surgery + Chemotherapy + Radiation",
+    "alternative_treatments": [
+      "Immunotherapy",
+      "Targeted Therapy",
+      "Clinical Trials"
+    ],
+    "urgency": "Immediate",
+    "success_rate": 0.92,
+    "side_effects": ["Fatigue", "Nausea", "Hair loss", "Immune suppression"],
+    "recommendations": [
+      "Follow NCCN guidelines",
+      "Consult multidisciplinary team",
+      "Consider genetic counseling"
+    ],
+    "priority": "High",
+    "timeline": "Immediate"
+  },
+  "benign": {
+    "primary_treatment": "Guideline-based Active Surveillance",
+    "alternative_treatments": ["Lifestyle changes", "Routine screening"],
+    "urgency": "Routine",
+    "success_rate": 0.99,
+    "side_effects": [],
+    "recommendations": ["Annual check-up", "Promote healthy lifestyle"],
+    "priority": "Low",
+    "timeline": "Routine"
+  }
+}

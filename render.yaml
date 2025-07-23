@@ -1,0 +1,25 @@
+services:
+  - type: web
+    name: cancer-diagnosis-api
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
+      - key: PYTHONPATH
+        value: /opt/render/project/src
+    healthCheckPath: /health
+    autoDeploy: true
+    plan: starter
+
+  - type: web
+    name: cancer-diagnosis-frontend
+    env: static
+    buildCommand: cd frontend && npm install && npm run build
+    staticPublishPath: ./frontend/build
+    envVars:
+      - key: REACT_APP_API_URL
+        value: https://cancer-diagnosis-backend.onrender.com
+    autoDeploy: true
+    plan: starter
