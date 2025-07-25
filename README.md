@@ -6,6 +6,7 @@ A comprehensive AI system for cancer diagnosis and prognosis prediction using ma
 
 ### Core Predictions
 
+
 1. **Cancer Diagnosis**: Malignant vs Benign classification
 2. **Cancer Type**: Multi-class cancer type identification
 3. **Metastasis Status**: Primary vs Metastatic classification
