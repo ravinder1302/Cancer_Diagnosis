@@ -4,7 +4,6 @@ A comprehensive AI system for cancer diagnosis and prognosis prediction using ma
 
 ## Features 
 
-
 ### Core Predictions
 
 1. **Cancer Diagnosis**: Malignant vs Benign classification
